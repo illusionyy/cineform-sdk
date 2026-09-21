@@ -8,7 +8,7 @@ option(BUILD_TOOLS "Build test tools" ON)
 option(BUILD_STATIC "Build static component" ON)
 option(BUILD_SEPARATED "Build a separate de/encoder libraries" OFF)
 
-set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
+# set(CMAKE_CONFIGURATION_TYPES "Debug;Release")
 add_definitions(-D_ALLOCATOR=1 -DWARPSTUFF=1)
 
 find_package(OpenMP)
